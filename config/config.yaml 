@@ -1,0 +1,56 @@
+# Real-Time Inference System Configuration
+
+# Server Configuration
+server:
+  host: "0.0.0.0"
+  recv_port: 5555  # Port to receive frames from clients
+  send_port: 5556  # Port to send results to clients
+  
+  # Queue settings
+  max_queue_size: 20
+  drop_policy: "oldest"  # Options: "oldest", "newest"
+  
+  # Worker settings
+  num_workers: 4  # Number of inference worker threads (set to CPU core count)
+
+# Model Configuration
+model:
+  name: "yolov8n.pt"
+  path: "models/yolov8n.pt"
+  device: "cpu"  # Options: "cpu", "cuda:0"
+  img_size: 640
+  conf_threshold: 0.25
+  iou_threshold: 0.45
+  warmup_runs: 3
+
+# Client Configuration
+client:
+  server_host: "localhost"
+  send_port: 5555  # Must match server's recv_port
+  recv_port: 5556  # Must match server's send_port
+  
+  # Stream settings
+  stream_url: "0"  # Webcam (0) or RTSP URL (rtsp://...)
+  stream_name: "cam_1"
+  target_fps: 30
+  
+  # Reconnection settings
+  reconnect_interval: 2  # Base interval in seconds
+  max_reconnect_attempts: 10
+  
+  # Queue settings
+  queue_size: 10
+
+# Logging Configuration
+logging:
+  level: "INFO"  # Options: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  log_to_file: true
+  log_dir: "logs/"
+  server_log_file: "server.log"
+  client_log_file: "client.log"
+
+# Output Configuration
+output:
+  save_json: true
+  output_dir: "output/"
+  save_annotated_frames: false  # Not implemented yet
