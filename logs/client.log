@@ -1,0 +1,693 @@
+2025-11-09 00:24:41 - __main__ - INFO - InferenceClient initialized
+2025-11-09 00:24:41 - __main__ - INFO - ============================================================
+2025-11-09 00:24:41 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 00:24:41 - __main__ - INFO - ============================================================
+2025-11-09 00:24:41 - __main__ - INFO - Connecting to server...
+2025-11-09 00:24:41 - __main__ - INFO - Starting capture worker...
+2025-11-09 00:24:41 - __main__ - INFO - Starting result handler...
+2025-11-09 00:24:41 - __main__ - INFO - ============================================================
+2025-11-09 00:24:41 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 00:24:41 - __main__ - INFO - ============================================================
+2025-11-09 13:42:55 - __main__ - INFO - InferenceClient initialized
+2025-11-09 13:42:55 - __main__ - INFO - ============================================================
+2025-11-09 13:42:55 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 13:42:55 - __main__ - INFO - ============================================================
+2025-11-09 13:42:55 - __main__ - INFO - Connecting to server...
+2025-11-09 13:42:55 - __main__ - INFO - Starting capture worker...
+2025-11-09 13:42:55 - __main__ - INFO - Starting result handler...
+2025-11-09 13:42:55 - __main__ - INFO - ============================================================
+2025-11-09 13:42:55 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 13:42:55 - __main__ - INFO - ============================================================
+2025-11-09 13:56:27 - __main__ - INFO - InferenceClient initialized
+2025-11-09 13:56:27 - __main__ - INFO - ============================================================
+2025-11-09 13:56:27 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 13:56:27 - __main__ - INFO - ============================================================
+2025-11-09 13:56:27 - __main__ - INFO - Connecting to server...
+2025-11-09 13:56:27 - __main__ - INFO - Starting capture worker...
+2025-11-09 13:56:27 - __main__ - INFO - Starting result handler...
+2025-11-09 13:56:27 - __main__ - INFO - Starting visualizer...
+2025-11-09 13:56:27 - __main__ - INFO - ============================================================
+2025-11-09 13:56:27 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 13:56:27 - __main__ - INFO - ============================================================
+2025-11-09 13:57:04 - __main__ - INFO - InferenceClient initialized
+2025-11-09 13:57:04 - __main__ - INFO - ============================================================
+2025-11-09 13:57:04 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 13:57:04 - __main__ - INFO - ============================================================
+2025-11-09 13:57:04 - __main__ - INFO - Connecting to server...
+2025-11-09 13:57:04 - __main__ - INFO - Starting capture worker...
+2025-11-09 13:57:04 - __main__ - INFO - Starting result handler...
+2025-11-09 13:57:04 - __main__ - INFO - Starting visualizer...
+2025-11-09 13:57:04 - __main__ - INFO - ============================================================
+2025-11-09 13:57:04 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 13:57:04 - __main__ - INFO - ============================================================
+2025-11-09 14:13:25 - __main__ - INFO - InferenceClient initialized
+2025-11-09 14:13:25 - __main__ - INFO - ============================================================
+2025-11-09 14:13:25 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 14:13:25 - __main__ - INFO - ============================================================
+2025-11-09 14:13:25 - __main__ - INFO - Connecting to server...
+2025-11-09 14:13:25 - __main__ - INFO - Starting capture worker...
+2025-11-09 14:13:25 - __main__ - INFO - Starting result handler...
+2025-11-09 14:13:25 - __main__ - INFO - ============================================================
+2025-11-09 14:13:25 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 14:13:25 - __main__ - INFO - ============================================================
+2025-11-09 14:13:34 - __main__ - INFO - Frames sent: 100
+2025-11-09 14:13:37 - __main__ - INFO - Frames sent: 200
+2025-11-09 14:13:41 - __main__ - INFO - Frames sent: 300
+2025-11-09 14:13:44 - __main__ - INFO - Frames sent: 400
+2025-11-09 14:15:43 - __main__ - INFO - InferenceClient initialized
+2025-11-09 14:15:43 - __main__ - INFO - ============================================================
+2025-11-09 14:15:43 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 14:15:43 - __main__ - INFO - ============================================================
+2025-11-09 14:15:43 - __main__ - INFO - Connecting to server...
+2025-11-09 14:15:43 - __main__ - INFO - Starting capture worker...
+2025-11-09 14:15:43 - __main__ - INFO - Starting result handler...
+2025-11-09 14:15:43 - __main__ - INFO - ============================================================
+2025-11-09 14:15:43 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 14:15:43 - __main__ - INFO - ============================================================
+2025-11-09 14:15:49 - __main__ - INFO - Frames sent: 100
+2025-11-09 14:15:52 - __main__ - INFO - Frames sent: 200
+2025-11-09 14:15:56 - __main__ - INFO - Frames sent: 300
+2025-11-09 14:15:59 - __main__ - INFO - Frames sent: 400
+2025-11-09 14:16:03 - __main__ - INFO - Frames sent: 500
+2025-11-09 14:16:06 - __main__ - INFO - Frames sent: 600
+2025-11-09 14:16:10 - __main__ - INFO - Frames sent: 700
+2025-11-09 14:16:13 - __main__ - INFO - Frames sent: 800
+2025-11-09 14:16:17 - __main__ - INFO - Frames sent: 900
+2025-11-09 14:16:21 - __main__ - INFO - Frames sent: 1000
+2025-11-09 14:16:24 - __main__ - INFO - Frames sent: 1100
+2025-11-09 14:16:28 - __main__ - INFO - Frames sent: 1200
+2025-11-09 14:16:31 - __main__ - INFO - Frames sent: 1300
+2025-11-09 14:16:35 - __main__ - INFO - Frames sent: 1400
+2025-11-09 14:16:38 - __main__ - INFO - Frames sent: 1500
+2025-11-09 14:16:42 - __main__ - INFO - Frames sent: 1600
+2025-11-09 14:16:45 - __main__ - INFO - Frames sent: 1700
+2025-11-09 14:16:49 - __main__ - INFO - Frames sent: 1800
+2025-11-09 14:16:52 - __main__ - INFO - Frames sent: 1900
+2025-11-09 14:16:56 - __main__ - INFO - Frames sent: 2000
+2025-11-09 14:19:53 - __main__ - INFO - InferenceClient initialized
+2025-11-09 14:19:53 - __main__ - INFO - ============================================================
+2025-11-09 14:19:53 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 14:19:53 - __main__ - INFO - ============================================================
+2025-11-09 14:19:53 - __main__ - INFO - Connecting to server...
+2025-11-09 14:19:53 - __main__ - INFO - Starting capture worker...
+2025-11-09 14:19:53 - __main__ - INFO - Starting result handler...
+2025-11-09 14:19:53 - __main__ - INFO - ============================================================
+2025-11-09 14:19:53 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 14:19:53 - __main__ - INFO - ============================================================
+2025-11-09 14:19:58 - __main__ - INFO - Frames sent: 100
+2025-11-09 14:20:01 - __main__ - INFO - Frames sent: 200
+2025-11-09 14:20:05 - __main__ - INFO - Frames sent: 300
+2025-11-09 14:20:08 - __main__ - INFO - Frames sent: 400
+2025-11-09 14:20:12 - __main__ - INFO - Frames sent: 500
+2025-11-09 14:20:15 - __main__ - INFO - Frames sent: 600
+2025-11-09 14:20:19 - __main__ - INFO - Frames sent: 700
+2025-11-09 14:20:22 - __main__ - INFO - Frames sent: 800
+2025-11-09 14:20:26 - __main__ - INFO - Frames sent: 900
+2025-11-09 14:20:29 - __main__ - INFO - Frames sent: 1000
+2025-11-09 14:20:33 - __main__ - INFO - Frames sent: 1100
+2025-11-09 14:20:36 - __main__ - INFO - Frames sent: 1200
+2025-11-09 14:20:40 - __main__ - INFO - Frames sent: 1300
+2025-11-09 14:20:43 - __main__ - INFO - Frames sent: 1400
+2025-11-09 14:20:47 - __main__ - INFO - Frames sent: 1500
+2025-11-09 14:20:50 - __main__ - INFO - Frames sent: 1600
+2025-11-09 14:20:54 - __main__ - INFO - Frames sent: 1700
+2025-11-09 14:20:58 - __main__ - INFO - Frames sent: 1800
+2025-11-09 14:21:01 - __main__ - INFO - Frames sent: 1900
+2025-11-09 14:21:05 - __main__ - INFO - Frames sent: 2000
+2025-11-09 14:21:08 - __main__ - INFO - Frames sent: 2100
+2025-11-09 14:21:12 - __main__ - INFO - Frames sent: 2200
+2025-11-09 14:21:15 - __main__ - INFO - Frames sent: 2300
+2025-11-09 14:21:19 - __main__ - INFO - Frames sent: 2400
+2025-11-09 14:21:22 - __main__ - INFO - Frames sent: 2500
+2025-11-09 14:21:26 - __main__ - INFO - Frames sent: 2600
+2025-11-09 14:21:29 - __main__ - INFO - Frames sent: 2700
+2025-11-09 14:21:33 - __main__ - INFO - Frames sent: 2800
+2025-11-09 14:21:36 - __main__ - INFO - Frames sent: 2900
+2025-11-09 14:21:40 - __main__ - INFO - Frames sent: 3000
+2025-11-09 14:21:43 - __main__ - INFO - Frames sent: 3100
+2025-11-09 14:21:47 - __main__ - INFO - Frames sent: 3200
+2025-11-09 14:32:44 - __main__ - INFO - InferenceClient initialized
+2025-11-09 14:32:44 - __main__ - INFO - ============================================================
+2025-11-09 14:32:44 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 14:32:44 - __main__ - INFO - ============================================================
+2025-11-09 14:32:44 - __main__ - INFO - Connecting to server...
+2025-11-09 14:32:44 - __main__ - INFO - Starting capture worker...
+2025-11-09 14:32:44 - __main__ - INFO - Starting result handler...
+2025-11-09 14:32:44 - __main__ - INFO - ============================================================
+2025-11-09 14:32:44 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 14:32:44 - __main__ - INFO - ============================================================
+2025-11-09 14:32:52 - __main__ - INFO - Frames sent: 100
+2025-11-09 14:32:55 - __main__ - INFO - Frames sent: 200
+2025-11-09 14:32:59 - __main__ - INFO - Frames sent: 300
+2025-11-09 14:33:02 - __main__ - INFO - Frames sent: 400
+2025-11-09 14:33:06 - __main__ - INFO - Frames sent: 500
+2025-11-09 14:33:09 - __main__ - INFO - Frames sent: 600
+2025-11-09 14:33:13 - __main__ - INFO - Frames sent: 700
+2025-11-09 14:33:16 - __main__ - INFO - Frames sent: 800
+2025-11-09 14:33:20 - __main__ - INFO - Frames sent: 900
+2025-11-09 14:33:23 - __main__ - INFO - Frames sent: 1000
+2025-11-09 14:33:27 - __main__ - INFO - Frames sent: 1100
+2025-11-09 14:33:30 - __main__ - INFO - Frames sent: 1200
+2025-11-09 14:33:34 - __main__ - INFO - Frames sent: 1300
+2025-11-09 14:33:37 - __main__ - INFO - Frames sent: 1400
+2025-11-09 14:33:41 - __main__ - INFO - Frames sent: 1500
+2025-11-09 14:33:45 - __main__ - INFO - Frames sent: 1600
+2025-11-09 14:33:48 - __main__ - INFO - Frames sent: 1700
+2025-11-09 14:33:52 - __main__ - INFO - Frames sent: 1800
+2025-11-09 14:37:33 - __main__ - INFO - InferenceClient initialized
+2025-11-09 14:37:33 - __main__ - INFO - ============================================================
+2025-11-09 14:37:33 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 14:37:33 - __main__ - INFO - ============================================================
+2025-11-09 14:37:33 - __main__ - INFO - Connecting to server...
+2025-11-09 14:37:33 - __main__ - INFO - Starting capture worker...
+2025-11-09 14:37:33 - __main__ - INFO - Starting result handler...
+2025-11-09 14:37:33 - __main__ - INFO - ============================================================
+2025-11-09 14:37:33 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 14:37:33 - __main__ - INFO - ============================================================
+2025-11-09 14:37:38 - __main__ - INFO - Frames sent: 100
+2025-11-09 14:37:42 - __main__ - INFO - Frames sent: 200
+2025-11-09 14:37:45 - __main__ - INFO - Frames sent: 300
+2025-11-09 14:37:49 - __main__ - INFO - Frames sent: 400
+2025-11-09 14:37:52 - __main__ - INFO - Frames sent: 500
+2025-11-09 14:37:56 - __main__ - INFO - Frames sent: 600
+2025-11-09 14:37:59 - __main__ - INFO - Frames sent: 700
+2025-11-09 14:38:03 - __main__ - INFO - Frames sent: 800
+2025-11-09 14:38:06 - __main__ - INFO - Frames sent: 900
+2025-11-09 14:38:10 - __main__ - INFO - Frames sent: 1000
+2025-11-09 14:38:13 - __main__ - INFO - Frames sent: 1100
+2025-11-09 14:38:17 - __main__ - INFO - Frames sent: 1200
+2025-11-09 14:38:20 - __main__ - INFO - Frames sent: 1300
+2025-11-09 14:38:24 - __main__ - INFO - Frames sent: 1400
+2025-11-09 14:38:27 - __main__ - INFO - Frames sent: 1500
+2025-11-09 14:38:31 - __main__ - INFO - Frames sent: 1600
+2025-11-09 14:38:34 - __main__ - INFO - Frames sent: 1700
+2025-11-09 14:38:38 - __main__ - INFO - Frames sent: 1800
+2025-11-09 14:38:41 - __main__ - INFO - Frames sent: 1900
+2025-11-09 14:38:45 - __main__ - INFO - Frames sent: 2000
+2025-11-09 14:38:49 - __main__ - INFO - Frames sent: 2100
+2025-11-09 14:38:52 - __main__ - INFO - Frames sent: 2200
+2025-11-09 14:38:55 - __main__ - INFO - Frames sent: 2300
+2025-11-09 14:38:59 - __main__ - INFO - Frames sent: 2400
+2025-11-09 14:39:02 - __main__ - INFO - Frames sent: 2500
+2025-11-09 14:39:06 - __main__ - INFO - Frames sent: 2600
+2025-11-09 14:39:09 - __main__ - INFO - Frames sent: 2700
+2025-11-09 14:39:13 - __main__ - INFO - Frames sent: 2800
+2025-11-09 14:39:16 - __main__ - INFO - Frames sent: 2900
+2025-11-09 14:39:20 - __main__ - INFO - Frames sent: 3000
+2025-11-09 14:39:23 - __main__ - INFO - Frames sent: 3100
+2025-11-09 14:39:27 - __main__ - INFO - Frames sent: 3200
+2025-11-09 14:39:30 - __main__ - INFO - Frames sent: 3300
+2025-11-09 14:39:34 - __main__ - INFO - Frames sent: 3400
+2025-11-09 14:39:37 - __main__ - INFO - Frames sent: 3500
+2025-11-09 14:39:41 - __main__ - INFO - Frames sent: 3600
+2025-11-09 14:39:45 - __main__ - INFO - Frames sent: 3700
+2025-11-09 14:39:48 - __main__ - INFO - Frames sent: 3800
+2025-11-09 14:39:52 - __main__ - INFO - Frames sent: 3900
+2025-11-09 14:39:55 - __main__ - INFO - Frames sent: 4000
+2025-11-09 14:39:59 - __main__ - INFO - Frames sent: 4100
+2025-11-09 14:40:02 - __main__ - INFO - Frames sent: 4200
+2025-11-09 14:40:06 - __main__ - INFO - Frames sent: 4300
+2025-11-09 14:40:09 - __main__ - INFO - Frames sent: 4400
+2025-11-09 14:40:13 - __main__ - INFO - Frames sent: 4500
+2025-11-09 14:40:16 - __main__ - INFO - Frames sent: 4600
+2025-11-09 14:40:20 - __main__ - INFO - Frames sent: 4700
+2025-11-09 14:40:23 - __main__ - INFO - Frames sent: 4800
+2025-11-09 14:40:27 - __main__ - INFO - Frames sent: 4900
+2025-11-09 14:40:30 - __main__ - INFO - Frames sent: 5000
+2025-11-09 14:40:34 - __main__ - INFO - Frames sent: 5100
+2025-11-09 14:40:37 - __main__ - INFO - Frames sent: 5200
+2025-11-09 14:40:41 - __main__ - INFO - Frames sent: 5300
+2025-11-09 14:53:34 - __main__ - INFO - InferenceClient initialized
+2025-11-09 14:53:34 - __main__ - INFO - ============================================================
+2025-11-09 14:53:34 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 14:53:34 - __main__ - INFO - ============================================================
+2025-11-09 14:53:34 - __main__ - INFO - Connecting to server...
+2025-11-09 14:53:34 - __main__ - INFO - Starting capture worker...
+2025-11-09 14:53:34 - __main__ - INFO - Starting result handler...
+2025-11-09 14:53:34 - __main__ - INFO - ============================================================
+2025-11-09 14:53:34 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 14:53:34 - __main__ - INFO - ============================================================
+2025-11-09 14:53:40 - __main__ - INFO - Frames sent: 100
+2025-11-09 14:54:53 - __main__ - INFO - InferenceClient initialized
+2025-11-09 14:54:53 - __main__ - INFO - ============================================================
+2025-11-09 14:54:53 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 14:54:53 - __main__ - INFO - ============================================================
+2025-11-09 14:54:53 - __main__ - INFO - Connecting to server...
+2025-11-09 14:54:53 - __main__ - INFO - Starting capture worker...
+2025-11-09 14:54:53 - __main__ - INFO - Starting result handler...
+2025-11-09 14:54:53 - __main__ - INFO - ============================================================
+2025-11-09 14:54:53 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 14:54:53 - __main__ - INFO - ============================================================
+2025-11-09 14:54:58 - __main__ - INFO - Frames sent: 100
+2025-11-09 14:55:02 - __main__ - INFO - Frames sent: 200
+2025-11-09 14:55:05 - __main__ - INFO - Frames sent: 300
+2025-11-09 14:55:09 - __main__ - INFO - Frames sent: 400
+2025-11-09 14:55:12 - __main__ - INFO - Frames sent: 500
+2025-11-09 14:55:16 - __main__ - INFO - Frames sent: 600
+2025-11-09 14:55:19 - __main__ - INFO - Frames sent: 700
+2025-11-09 14:55:23 - __main__ - INFO - Frames sent: 800
+2025-11-09 14:55:26 - __main__ - INFO - Frames sent: 900
+2025-11-09 14:55:30 - __main__ - INFO - Frames sent: 1000
+2025-11-09 14:55:33 - __main__ - INFO - Frames sent: 1100
+2025-11-09 14:55:37 - __main__ - INFO - Frames sent: 1200
+2025-11-09 14:55:40 - __main__ - INFO - Frames sent: 1300
+2025-11-09 14:55:44 - __main__ - INFO - Frames sent: 1400
+2025-11-09 14:55:48 - __main__ - INFO - Frames sent: 1500
+2025-11-09 14:55:51 - __main__ - INFO - Frames sent: 1600
+2025-11-09 14:55:55 - __main__ - INFO - Frames sent: 1700
+2025-11-09 14:55:58 - __main__ - INFO - Frames sent: 1800
+2025-11-09 14:56:02 - __main__ - INFO - Frames sent: 1900
+2025-11-09 14:56:05 - __main__ - INFO - Frames sent: 2000
+2025-11-09 14:56:09 - __main__ - INFO - Frames sent: 2100
+2025-11-09 14:56:12 - __main__ - INFO - Frames sent: 2200
+2025-11-09 14:56:16 - __main__ - INFO - Frames sent: 2300
+2025-11-09 14:56:19 - __main__ - INFO - Frames sent: 2400
+2025-11-09 14:56:23 - __main__ - INFO - Frames sent: 2500
+2025-11-09 14:56:26 - __main__ - INFO - Frames sent: 2600
+2025-11-09 14:56:30 - __main__ - INFO - Frames sent: 2700
+2025-11-09 14:56:33 - __main__ - INFO - Frames sent: 2800
+2025-11-09 14:56:37 - __main__ - INFO - Frames sent: 2900
+2025-11-09 14:56:40 - __main__ - INFO - Frames sent: 3000
+2025-11-09 14:56:44 - __main__ - INFO - Frames sent: 3100
+2025-11-09 14:56:47 - __main__ - INFO - Frames sent: 3200
+2025-11-09 14:56:51 - __main__ - INFO - Frames sent: 3300
+2025-11-09 14:56:54 - __main__ - INFO - Frames sent: 3400
+2025-11-09 14:56:58 - __main__ - INFO - Frames sent: 3500
+2025-11-09 14:57:01 - __main__ - INFO - Frames sent: 3600
+2025-11-09 14:57:05 - __main__ - INFO - Frames sent: 3700
+2025-11-09 14:57:08 - __main__ - INFO - Frames sent: 3800
+2025-11-09 14:57:12 - __main__ - INFO - Frames sent: 3900
+2025-11-09 14:57:15 - __main__ - INFO - Frames sent: 4000
+2025-11-09 14:57:19 - __main__ - INFO - Frames sent: 4100
+2025-11-09 14:57:22 - __main__ - INFO - Frames sent: 4200
+2025-11-09 14:57:26 - __main__ - INFO - Frames sent: 4300
+2025-11-09 14:57:29 - __main__ - INFO - Frames sent: 4400
+2025-11-09 14:57:33 - __main__ - INFO - Frames sent: 4500
+2025-11-09 14:57:37 - __main__ - INFO - Frames sent: 4600
+2025-11-09 14:57:40 - __main__ - INFO - Frames sent: 4700
+2025-11-09 14:57:44 - __main__ - INFO - Frames sent: 4800
+2025-11-09 14:57:47 - __main__ - INFO - Frames sent: 4900
+2025-11-09 14:57:51 - __main__ - INFO - Frames sent: 5000
+2025-11-09 14:57:54 - __main__ - INFO - Frames sent: 5100
+2025-11-09 14:57:58 - __main__ - INFO - Frames sent: 5200
+2025-11-09 14:58:01 - __main__ - INFO - Frames sent: 5300
+2025-11-09 14:58:05 - __main__ - INFO - Frames sent: 5400
+2025-11-09 14:58:08 - __main__ - INFO - Frames sent: 5500
+2025-11-09 14:58:12 - __main__ - INFO - Frames sent: 5600
+2025-11-09 14:58:15 - __main__ - INFO - Frames sent: 5700
+2025-11-09 14:58:19 - __main__ - INFO - Frames sent: 5800
+2025-11-09 14:58:22 - __main__ - INFO - Frames sent: 5900
+2025-11-09 14:58:26 - __main__ - INFO - Frames sent: 6000
+2025-11-09 14:58:29 - __main__ - INFO - Frames sent: 6100
+2025-11-09 14:58:33 - __main__ - INFO - Frames sent: 6200
+2025-11-09 14:58:36 - __main__ - INFO - Frames sent: 6300
+2025-11-09 14:58:40 - __main__ - INFO - Frames sent: 6400
+2025-11-09 15:06:55 - __main__ - INFO - InferenceClient initialized
+2025-11-09 15:06:55 - __main__ - INFO - ============================================================
+2025-11-09 15:06:55 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 15:06:55 - __main__ - INFO - ============================================================
+2025-11-09 15:06:55 - __main__ - INFO - Connecting to server...
+2025-11-09 15:06:55 - __main__ - INFO - Starting capture worker...
+2025-11-09 15:06:55 - __main__ - INFO - Starting result handler...
+2025-11-09 15:06:55 - __main__ - INFO - ============================================================
+2025-11-09 15:06:55 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 15:06:55 - __main__ - INFO - ============================================================
+2025-11-09 15:07:00 - __main__ - INFO - Frames sent: 100
+2025-11-09 15:07:04 - __main__ - INFO - Frames sent: 200
+2025-11-09 15:07:07 - __main__ - INFO - Frames sent: 300
+2025-11-09 15:07:11 - __main__ - INFO - Frames sent: 400
+2025-11-09 15:07:14 - __main__ - INFO - Frames sent: 500
+2025-11-09 15:07:18 - __main__ - INFO - Frames sent: 600
+2025-11-09 15:07:21 - __main__ - INFO - Frames sent: 700
+2025-11-09 15:07:25 - __main__ - INFO - Frames sent: 800
+2025-11-09 15:07:28 - __main__ - INFO - Frames sent: 900
+2025-11-09 15:07:32 - __main__ - INFO - Frames sent: 1000
+2025-11-09 15:07:35 - __main__ - INFO - Frames sent: 1100
+2025-11-09 15:07:39 - __main__ - INFO - Frames sent: 1200
+2025-11-09 15:14:28 - __main__ - INFO - InferenceClient initialized
+2025-11-09 15:14:28 - __main__ - INFO - ============================================================
+2025-11-09 15:14:28 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 15:14:28 - __main__ - INFO - ============================================================
+2025-11-09 15:14:28 - __main__ - INFO - Connecting to server...
+2025-11-09 15:14:28 - __main__ - INFO - Starting capture worker...
+2025-11-09 15:14:28 - __main__ - INFO - Starting result handler...
+2025-11-09 15:14:28 - __main__ - INFO - ============================================================
+2025-11-09 15:14:28 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 15:14:28 - __main__ - INFO - ============================================================
+2025-11-09 15:14:33 - __main__ - INFO - Frames sent: 100
+2025-11-09 15:14:37 - __main__ - INFO - Frames sent: 200
+2025-11-09 15:14:40 - __main__ - INFO - Frames sent: 300
+2025-11-09 15:14:44 - __main__ - INFO - Frames sent: 400
+2025-11-09 15:14:47 - __main__ - INFO - Frames sent: 500
+2025-11-09 15:14:51 - __main__ - INFO - Frames sent: 600
+2025-11-09 15:14:55 - __main__ - INFO - Frames sent: 700
+2025-11-09 15:14:58 - __main__ - INFO - Frames sent: 800
+2025-11-09 15:15:02 - __main__ - INFO - Frames sent: 900
+2025-11-09 15:15:05 - __main__ - INFO - Frames sent: 1000
+2025-11-09 15:15:09 - __main__ - INFO - Frames sent: 1100
+2025-11-09 15:15:12 - __main__ - INFO - Frames sent: 1200
+2025-11-09 15:15:16 - __main__ - INFO - Frames sent: 1300
+2025-11-09 15:15:19 - __main__ - INFO - Frames sent: 1400
+2025-11-09 15:20:51 - __main__ - INFO - InferenceClient initialized
+2025-11-09 15:20:51 - __main__ - INFO - ============================================================
+2025-11-09 15:20:51 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 15:20:51 - __main__ - INFO - ============================================================
+2025-11-09 15:20:51 - __main__ - INFO - Connecting to server...
+2025-11-09 15:20:51 - __main__ - INFO - Starting capture worker...
+2025-11-09 15:20:51 - __main__ - INFO - Starting result handler...
+2025-11-09 15:20:51 - __main__ - INFO - ============================================================
+2025-11-09 15:20:51 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 15:20:51 - __main__ - INFO - ============================================================
+2025-11-09 15:20:56 - __main__ - INFO - Frames sent: 100
+2025-11-09 15:21:00 - __main__ - INFO - Frames sent: 200
+2025-11-09 15:21:03 - __main__ - INFO - Frames sent: 300
+2025-11-09 15:21:07 - __main__ - INFO - Frames sent: 400
+2025-11-09 15:21:10 - __main__ - INFO - Frames sent: 500
+2025-11-09 15:21:14 - __main__ - INFO - Frames sent: 600
+2025-11-09 15:21:17 - __main__ - INFO - Frames sent: 700
+2025-11-09 15:21:21 - __main__ - INFO - Frames sent: 800
+2025-11-09 15:21:24 - __main__ - INFO - Frames sent: 900
+2025-11-09 15:21:28 - __main__ - INFO - Frames sent: 1000
+2025-11-09 15:21:31 - __main__ - INFO - Frames sent: 1100
+2025-11-09 15:21:35 - __main__ - INFO - Frames sent: 1200
+2025-11-09 15:21:38 - __main__ - INFO - Frames sent: 1300
+2025-11-09 15:33:15 - __main__ - INFO - InferenceClient initialized
+2025-11-09 15:33:15 - __main__ - INFO - ============================================================
+2025-11-09 15:33:15 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 15:33:15 - __main__ - INFO - ============================================================
+2025-11-09 15:33:15 - __main__ - INFO - Connecting to server...
+2025-11-09 15:33:15 - __main__ - INFO - Starting capture worker...
+2025-11-09 15:33:15 - __main__ - INFO - Starting result handler...
+2025-11-09 15:33:15 - __main__ - INFO - ============================================================
+2025-11-09 15:33:15 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 15:33:15 - __main__ - INFO - ============================================================
+2025-11-09 15:33:21 - __main__ - INFO - Frames sent: 100
+2025-11-09 15:33:42 - __main__ - INFO - InferenceClient initialized
+2025-11-09 15:33:42 - __main__ - INFO - ============================================================
+2025-11-09 15:33:42 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 15:33:42 - __main__ - INFO - ============================================================
+2025-11-09 15:33:42 - __main__ - INFO - Connecting to server...
+2025-11-09 15:33:42 - __main__ - INFO - Starting capture worker...
+2025-11-09 15:33:42 - __main__ - INFO - Starting result handler...
+2025-11-09 15:33:42 - __main__ - INFO - ============================================================
+2025-11-09 15:33:42 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 15:33:42 - __main__ - INFO - ============================================================
+2025-11-09 15:33:47 - __main__ - INFO - Frames sent: 100
+2025-11-09 15:33:50 - __main__ - INFO - Frames sent: 200
+2025-11-09 15:33:54 - __main__ - INFO - Frames sent: 300
+2025-11-09 15:33:57 - __main__ - INFO - Frames sent: 400
+2025-11-09 15:34:01 - __main__ - INFO - Frames sent: 500
+2025-11-09 15:34:04 - __main__ - INFO - Frames sent: 600
+2025-11-09 15:34:08 - __main__ - INFO - Frames sent: 700
+2025-11-09 15:34:11 - __main__ - INFO - Frames sent: 800
+2025-11-09 15:34:15 - __main__ - INFO - Frames sent: 900
+2025-11-09 15:34:18 - __main__ - INFO - Frames sent: 1000
+2025-11-09 15:34:22 - __main__ - INFO - Frames sent: 1100
+2025-11-09 15:43:05 - __main__ - INFO - InferenceClient initialized
+2025-11-09 15:43:05 - __main__ - INFO - ============================================================
+2025-11-09 15:43:05 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 15:43:05 - __main__ - INFO - ============================================================
+2025-11-09 15:43:05 - __main__ - INFO - Connecting to server...
+2025-11-09 15:43:05 - __main__ - INFO - Starting capture worker...
+2025-11-09 15:43:05 - __main__ - INFO - Starting result handler...
+2025-11-09 15:43:05 - __main__ - INFO - ============================================================
+2025-11-09 15:43:05 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 15:43:05 - __main__ - INFO - ============================================================
+2025-11-09 15:43:12 - __main__ - INFO - Frames sent: 100
+2025-11-09 15:43:16 - __main__ - INFO - Frames sent: 200
+2025-11-09 15:43:19 - __main__ - INFO - Frames sent: 300
+2025-11-09 15:43:23 - __main__ - INFO - Frames sent: 400
+2025-11-09 15:43:26 - __main__ - INFO - Frames sent: 500
+2025-11-09 15:43:30 - __main__ - INFO - Frames sent: 600
+2025-11-09 15:43:33 - __main__ - INFO - Frames sent: 700
+2025-11-09 15:43:37 - __main__ - INFO - Frames sent: 800
+2025-11-09 15:43:40 - __main__ - INFO - Frames sent: 900
+2025-11-09 15:50:07 - __main__ - INFO - InferenceClient initialized
+2025-11-09 15:50:07 - __main__ - INFO - ============================================================
+2025-11-09 15:50:07 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 15:50:07 - __main__ - INFO - ============================================================
+2025-11-09 15:50:07 - __main__ - INFO - Connecting to server...
+2025-11-09 15:50:07 - __main__ - INFO - Starting capture worker...
+2025-11-09 15:50:07 - __main__ - INFO - Starting result handler...
+2025-11-09 15:50:07 - __main__ - INFO - ============================================================
+2025-11-09 15:50:07 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 15:50:07 - __main__ - INFO - ============================================================
+2025-11-09 15:50:30 - __main__ - INFO - InferenceClient initialized
+2025-11-09 15:50:30 - __main__ - INFO - ============================================================
+2025-11-09 15:50:30 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 15:50:30 - __main__ - INFO - ============================================================
+2025-11-09 15:50:30 - __main__ - INFO - Connecting to server...
+2025-11-09 15:50:30 - __main__ - INFO - Starting capture worker...
+2025-11-09 15:50:30 - __main__ - INFO - Starting result handler...
+2025-11-09 15:50:30 - __main__ - INFO - ============================================================
+2025-11-09 15:50:30 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 15:50:30 - __main__ - INFO - ============================================================
+2025-11-09 15:50:49 - __main__ - INFO - InferenceClient initialized
+2025-11-09 15:50:49 - __main__ - INFO - ============================================================
+2025-11-09 15:50:49 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 15:50:49 - __main__ - INFO - ============================================================
+2025-11-09 15:50:49 - __main__ - INFO - Connecting to server...
+2025-11-09 15:50:49 - __main__ - INFO - Starting capture worker...
+2025-11-09 15:50:49 - __main__ - INFO - Starting result handler...
+2025-11-09 15:50:49 - __main__ - INFO - ============================================================
+2025-11-09 15:50:49 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 15:50:49 - __main__ - INFO - ============================================================
+2025-11-09 15:50:54 - __main__ - INFO - Frames sent: 100
+2025-11-09 15:50:58 - __main__ - INFO - Frames sent: 200
+2025-11-09 15:51:02 - __main__ - INFO - Frames sent: 300
+2025-11-09 15:51:06 - __main__ - INFO - Frames sent: 400
+2025-11-09 15:51:09 - __main__ - INFO - Frames sent: 500
+2025-11-09 15:51:36 - __main__ - INFO - InferenceClient initialized
+2025-11-09 15:51:36 - __main__ - INFO - ============================================================
+2025-11-09 15:51:36 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 15:51:36 - __main__ - INFO - ============================================================
+2025-11-09 15:51:36 - __main__ - INFO - Connecting to server...
+2025-11-09 15:51:36 - __main__ - INFO - Starting capture worker...
+2025-11-09 15:51:36 - __main__ - INFO - Starting result handler...
+2025-11-09 15:51:36 - __main__ - INFO - ============================================================
+2025-11-09 15:51:36 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 15:51:36 - __main__ - INFO - ============================================================
+2025-11-09 15:51:41 - __main__ - INFO - Frames sent: 100
+2025-11-09 15:51:45 - __main__ - INFO - Frames sent: 200
+2025-11-09 15:51:49 - __main__ - INFO - Frames sent: 300
+2025-11-09 15:51:52 - __main__ - INFO - Frames sent: 400
+2025-11-09 15:51:56 - __main__ - INFO - Frames sent: 500
+2025-11-09 15:51:59 - __main__ - INFO - Frames sent: 600
+2025-11-09 15:52:03 - __main__ - INFO - Frames sent: 700
+2025-11-09 15:52:06 - __main__ - INFO - Frames sent: 800
+2025-11-09 15:52:10 - __main__ - INFO - Frames sent: 900
+2025-11-09 15:54:18 - __main__ - INFO - InferenceClient initialized
+2025-11-09 15:54:18 - __main__ - INFO - ============================================================
+2025-11-09 15:54:18 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 15:54:18 - __main__ - INFO - ============================================================
+2025-11-09 15:54:18 - __main__ - INFO - Connecting to server...
+2025-11-09 15:54:18 - __main__ - INFO - Starting capture worker...
+2025-11-09 15:54:18 - __main__ - INFO - Starting result handler...
+2025-11-09 15:54:18 - __main__ - INFO - ============================================================
+2025-11-09 15:54:18 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 15:54:18 - __main__ - INFO - ============================================================
+2025-11-09 15:54:23 - __main__ - INFO - Frames sent: 100
+2025-11-09 15:54:27 - __main__ - INFO - Frames sent: 200
+2025-11-09 15:54:30 - __main__ - INFO - Frames sent: 300
+2025-11-09 15:54:34 - __main__ - INFO - Frames sent: 400
+2025-11-09 15:54:37 - __main__ - INFO - Frames sent: 500
+2025-11-09 15:54:41 - __main__ - INFO - Frames sent: 600
+2025-11-09 15:58:49 - __main__ - INFO - InferenceClient initialized
+2025-11-09 15:58:49 - __main__ - INFO - ============================================================
+2025-11-09 15:58:49 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 15:58:49 - __main__ - INFO - ============================================================
+2025-11-09 15:58:49 - __main__ - INFO - Connecting to server...
+2025-11-09 15:58:49 - __main__ - INFO - Starting capture worker...
+2025-11-09 15:58:49 - __main__ - INFO - Starting result handler...
+2025-11-09 15:58:49 - __main__ - INFO - ============================================================
+2025-11-09 15:58:49 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 15:58:49 - __main__ - INFO - ============================================================
+2025-11-09 15:58:54 - __main__ - INFO - Frames sent: 100
+2025-11-09 15:58:58 - __main__ - INFO - Frames sent: 200
+2025-11-09 15:59:01 - __main__ - INFO - Frames sent: 300
+2025-11-09 15:59:05 - __main__ - INFO - Frames sent: 400
+2025-11-09 15:59:08 - __main__ - INFO - Frames sent: 500
+2025-11-09 16:06:26 - __main__ - INFO - InferenceClient initialized
+2025-11-09 16:06:26 - __main__ - INFO - ============================================================
+2025-11-09 16:06:26 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 16:06:26 - __main__ - INFO - ============================================================
+2025-11-09 16:06:26 - __main__ - INFO - Connecting to server...
+2025-11-09 16:06:26 - __main__ - INFO - Starting capture worker...
+2025-11-09 16:06:26 - __main__ - INFO - Starting result handler...
+2025-11-09 16:06:26 - __main__ - INFO - ============================================================
+2025-11-09 16:06:26 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 16:06:26 - __main__ - INFO - ============================================================
+2025-11-09 16:06:31 - __main__ - INFO - Frames sent: 100
+2025-11-09 16:06:34 - __main__ - INFO - Frames sent: 200
+2025-11-09 16:06:38 - __main__ - INFO - Frames sent: 300
+2025-11-09 16:06:41 - __main__ - INFO - Frames sent: 400
+2025-11-09 16:06:45 - __main__ - INFO - Frames sent: 500
+2025-11-09 16:15:17 - __main__ - INFO - InferenceClient initialized
+2025-11-09 16:15:17 - __main__ - INFO - ============================================================
+2025-11-09 16:15:17 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 16:15:17 - __main__ - INFO - ============================================================
+2025-11-09 16:15:17 - __main__ - INFO - Connecting to server...
+2025-11-09 16:15:17 - __main__ - INFO - Starting capture worker...
+2025-11-09 16:15:17 - __main__ - INFO - Starting result handler...
+2025-11-09 16:15:17 - __main__ - INFO - ============================================================
+2025-11-09 16:15:17 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 16:15:17 - __main__ - INFO - ============================================================
+2025-11-09 16:15:22 - __main__ - INFO - Frames sent: 100
+2025-11-09 16:15:26 - __main__ - INFO - Frames sent: 200
+2025-11-09 16:15:29 - __main__ - INFO - Frames sent: 300
+2025-11-09 16:15:33 - __main__ - INFO - Frames sent: 400
+2025-11-09 16:15:36 - __main__ - INFO - Frames sent: 500
+2025-11-09 16:15:40 - __main__ - INFO - Frames sent: 600
+2025-11-09 16:15:43 - __main__ - INFO - Frames sent: 700
+2025-11-09 16:15:47 - __main__ - INFO - Frames sent: 800
+2025-11-09 16:15:51 - __main__ - INFO - Frames sent: 900
+2025-11-09 16:15:54 - __main__ - INFO - Frames sent: 1000
+2025-11-09 16:18:07 - __main__ - INFO - InferenceClient initialized
+2025-11-09 16:18:07 - __main__ - INFO - ============================================================
+2025-11-09 16:18:07 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 16:18:07 - __main__ - INFO - ============================================================
+2025-11-09 16:18:07 - __main__ - INFO - Connecting to server...
+2025-11-09 16:18:07 - __main__ - INFO - Starting capture worker...
+2025-11-09 16:18:07 - __main__ - INFO - Starting result handler...
+2025-11-09 16:18:07 - __main__ - INFO - ============================================================
+2025-11-09 16:18:07 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 16:18:07 - __main__ - INFO - ============================================================
+2025-11-09 16:18:12 - __main__ - INFO - Frames sent: 100
+2025-11-09 16:18:16 - __main__ - INFO - Frames sent: 200
+2025-11-09 16:18:19 - __main__ - INFO - Frames sent: 300
+2025-11-09 16:18:23 - __main__ - INFO - Frames sent: 400
+2025-11-09 16:18:26 - __main__ - INFO - Frames sent: 500
+2025-11-09 17:33:07 - __main__ - INFO - InferenceClient initialized
+2025-11-09 17:33:07 - __main__ - INFO - ============================================================
+2025-11-09 17:33:07 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 17:33:07 - __main__ - INFO - ============================================================
+2025-11-09 17:33:07 - __main__ - INFO - Connecting to server...
+2025-11-09 17:33:07 - __main__ - INFO - Starting capture worker...
+2025-11-09 17:33:07 - __main__ - INFO - Starting result handler...
+2025-11-09 17:33:07 - __main__ - INFO - ============================================================
+2025-11-09 17:33:07 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 17:33:07 - __main__ - INFO - ============================================================
+2025-11-09 17:33:12 - __main__ - INFO - Frames sent: 100
+2025-11-09 17:33:15 - __main__ - INFO - Frames sent: 200
+2025-11-09 17:33:19 - __main__ - INFO - Frames sent: 300
+2025-11-09 17:33:22 - __main__ - INFO - Frames sent: 400
+2025-11-09 17:33:26 - __main__ - INFO - Frames sent: 500
+2025-11-09 17:33:29 - __main__ - INFO - Frames sent: 600
+2025-11-09 17:33:33 - __main__ - INFO - Frames sent: 700
+2025-11-09 17:33:37 - __main__ - INFO - Frames sent: 800
+2025-11-09 17:33:40 - __main__ - INFO - Frames sent: 900
+2025-11-09 17:33:44 - __main__ - INFO - Frames sent: 1000
+2025-11-09 17:33:47 - __main__ - INFO - Frames sent: 1100
+2025-11-09 17:33:51 - __main__ - INFO - Frames sent: 1200
+2025-11-09 17:33:54 - __main__ - INFO - Frames sent: 1300
+2025-11-09 17:33:58 - __main__ - INFO - Frames sent: 1400
+2025-11-09 17:34:01 - __main__ - INFO - Frames sent: 1500
+2025-11-09 17:34:05 - __main__ - INFO - Frames sent: 1600
+2025-11-09 17:34:09 - __main__ - INFO - Frames sent: 1700
+2025-11-09 17:34:12 - __main__ - INFO - Frames sent: 1800
+2025-11-09 17:34:16 - __main__ - INFO - Frames sent: 1900
+2025-11-09 17:34:19 - __main__ - INFO - Frames sent: 2000
+2025-11-09 17:34:23 - __main__ - INFO - Frames sent: 2100
+2025-11-09 17:34:26 - __main__ - INFO - Frames sent: 2200
+2025-11-09 17:34:30 - __main__ - INFO - Frames sent: 2300
+2025-11-09 17:34:33 - __main__ - INFO - Frames sent: 2400
+2025-11-09 17:34:37 - __main__ - INFO - Frames sent: 2500
+2025-11-09 17:34:41 - __main__ - INFO - Frames sent: 2600
+2025-11-09 17:34:44 - __main__ - INFO - Frames sent: 2700
+2025-11-09 17:34:48 - __main__ - INFO - Frames sent: 2800
+2025-11-09 17:34:51 - __main__ - INFO - Frames sent: 2900
+2025-11-09 17:34:55 - __main__ - INFO - Frames sent: 3000
+2025-11-09 17:34:58 - __main__ - INFO - Frames sent: 3100
+2025-11-09 17:35:02 - __main__ - INFO - Frames sent: 3200
+2025-11-09 17:35:05 - __main__ - INFO - Frames sent: 3300
+2025-11-09 17:35:09 - __main__ - INFO - Frames sent: 3400
+2025-11-09 17:35:13 - __main__ - INFO - Frames sent: 3500
+2025-11-09 17:35:16 - __main__ - INFO - Frames sent: 3600
+2025-11-09 17:35:20 - __main__ - INFO - Frames sent: 3700
+2025-11-09 17:35:23 - __main__ - INFO - Frames sent: 3800
+2025-11-09 17:35:27 - __main__ - INFO - Frames sent: 3900
+2025-11-09 17:35:30 - __main__ - INFO - Frames sent: 4000
+2025-11-09 17:35:34 - __main__ - INFO - Frames sent: 4100
+2025-11-09 17:35:38 - __main__ - INFO - Frames sent: 4200
+2025-11-09 17:35:41 - __main__ - INFO - Frames sent: 4300
+2025-11-09 17:35:45 - __main__ - INFO - Frames sent: 4400
+2025-11-09 17:35:48 - __main__ - INFO - Frames sent: 4500
+2025-11-09 17:35:52 - __main__ - INFO - Frames sent: 4600
+2025-11-09 17:35:55 - __main__ - INFO - Frames sent: 4700
+2025-11-09 17:35:59 - __main__ - INFO - Frames sent: 4800
+2025-11-09 17:36:02 - __main__ - INFO - Frames sent: 4900
+2025-11-09 17:36:06 - __main__ - INFO - Frames sent: 5000
+2025-11-09 17:38:06 - __main__ - INFO - InferenceClient initialized
+2025-11-09 17:38:06 - __main__ - INFO - ============================================================
+2025-11-09 17:38:06 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 17:38:06 - __main__ - INFO - ============================================================
+2025-11-09 17:38:06 - __main__ - INFO - Connecting to server...
+2025-11-09 17:38:06 - __main__ - INFO - Starting capture worker...
+2025-11-09 17:38:06 - __main__ - INFO - Starting result handler...
+2025-11-09 17:38:06 - __main__ - INFO - ============================================================
+2025-11-09 17:38:06 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 17:38:06 - __main__ - INFO - ============================================================
+2025-11-09 17:38:20 - __main__ - INFO - InferenceClient initialized
+2025-11-09 17:38:20 - __main__ - INFO - ============================================================
+2025-11-09 17:38:20 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 17:38:20 - __main__ - INFO - ============================================================
+2025-11-09 17:38:20 - __main__ - INFO - Connecting to server...
+2025-11-09 17:38:20 - __main__ - INFO - Starting capture worker...
+2025-11-09 17:38:20 - __main__ - INFO - Starting result handler...
+2025-11-09 17:38:20 - __main__ - INFO - ============================================================
+2025-11-09 17:38:20 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 17:38:20 - __main__ - INFO - ============================================================
+2025-11-09 17:38:25 - __main__ - INFO - Frames sent: 100
+2025-11-09 17:38:35 - __main__ - INFO - InferenceClient initialized
+2025-11-09 17:38:35 - __main__ - INFO - ============================================================
+2025-11-09 17:38:35 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 17:38:35 - __main__ - INFO - ============================================================
+2025-11-09 17:38:35 - __main__ - INFO - Connecting to server...
+2025-11-09 17:38:35 - __main__ - INFO - Starting capture worker...
+2025-11-09 17:38:35 - __main__ - INFO - Starting result handler...
+2025-11-09 17:38:35 - __main__ - INFO - ============================================================
+2025-11-09 17:38:35 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 17:38:35 - __main__ - INFO - ============================================================
+2025-11-09 17:38:40 - __main__ - INFO - Frames sent: 100
+2025-11-09 17:38:44 - __main__ - INFO - Frames sent: 200
+2025-11-09 17:38:47 - __main__ - INFO - Frames sent: 300
+2025-11-09 17:38:51 - __main__ - INFO - Frames sent: 400
+2025-11-09 17:38:54 - __main__ - INFO - Frames sent: 500
+2025-11-09 17:38:58 - __main__ - INFO - Frames sent: 600
+2025-11-09 17:39:01 - __main__ - INFO - Frames sent: 700
+2025-11-09 17:39:05 - __main__ - INFO - Frames sent: 800
+2025-11-09 18:00:24 - __main__ - INFO - InferenceClient initialized
+2025-11-09 18:00:24 - __main__ - INFO - ============================================================
+2025-11-09 18:00:24 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 18:00:24 - __main__ - INFO - ============================================================
+2025-11-09 18:00:24 - __main__ - INFO - Connecting to server...
+2025-11-09 18:00:24 - __main__ - INFO - Starting capture worker...
+2025-11-09 18:00:24 - __main__ - INFO - Starting result handler...
+2025-11-09 18:00:24 - __main__ - INFO - ============================================================
+2025-11-09 18:00:24 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 18:00:24 - __main__ - INFO - ============================================================
+2025-11-09 18:00:32 - __main__ - INFO - Frames sent: 100
+2025-11-09 18:00:36 - __main__ - INFO - Frames sent: 200
+2025-11-09 18:00:39 - __main__ - INFO - Frames sent: 300
+2025-11-09 18:00:43 - __main__ - INFO - Frames sent: 400
+2025-11-09 18:00:46 - __main__ - INFO - Frames sent: 500
+2025-11-09 18:14:55 - __main__ - INFO - InferenceClient initialized
+2025-11-09 18:14:55 - __main__ - INFO - ============================================================
+2025-11-09 18:14:55 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 18:14:55 - __main__ - INFO - ============================================================
+2025-11-09 18:14:55 - __main__ - INFO - Connecting to server...
+2025-11-09 18:14:55 - __main__ - INFO - Starting capture worker...
+2025-11-09 18:14:55 - __main__ - INFO - Starting result handler...
+2025-11-09 18:14:55 - __main__ - INFO - ============================================================
+2025-11-09 18:14:55 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 18:14:55 - __main__ - INFO - ============================================================
+2025-11-09 20:15:27 - __main__ - INFO - InferenceClient initialized
+2025-11-09 20:15:27 - __main__ - INFO - ============================================================
+2025-11-09 20:15:27 - __main__ - INFO - STARTING INFERENCE CLIENT
+2025-11-09 20:15:27 - __main__ - INFO - ============================================================
+2025-11-09 20:15:27 - __main__ - INFO - Connecting to server...
+2025-11-09 20:15:27 - __main__ - INFO - Starting capture worker...
+2025-11-09 20:15:27 - __main__ - INFO - Starting result handler...
+2025-11-09 20:15:27 - __main__ - INFO - ============================================================
+2025-11-09 20:15:27 - __main__ - INFO - CLIENT READY - Streaming frames...
+2025-11-09 20:15:27 - __main__ - INFO - ============================================================

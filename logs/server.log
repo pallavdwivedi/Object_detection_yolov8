@@ -1,0 +1,673 @@
+2025-11-09 00:22:17 - __main__ - INFO - InferenceServer initialized
+2025-11-09 00:22:17 - __main__ - INFO - ============================================================
+2025-11-09 00:22:17 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 00:22:17 - __main__ - INFO - ============================================================
+2025-11-09 00:22:17 - __main__ - INFO - Loading YOLO model...
+2025-11-09 00:22:22 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 00:22:22 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 00:22:22 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 00:22:22 - __main__ - INFO - All 4 workers started
+2025-11-09 00:22:22 - __main__ - INFO - ============================================================
+2025-11-09 00:22:22 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 00:22:22 - __main__ - INFO - ============================================================
+2025-11-09 13:40:36 - __main__ - INFO - InferenceServer initialized
+2025-11-09 13:40:36 - __main__ - INFO - ============================================================
+2025-11-09 13:40:36 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 13:40:36 - __main__ - INFO - ============================================================
+2025-11-09 13:40:36 - __main__ - INFO - Loading YOLO model...
+2025-11-09 13:40:37 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 13:40:37 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 13:40:37 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 13:40:37 - __main__ - INFO - All 4 workers started
+2025-11-09 13:40:37 - __main__ - INFO - ============================================================
+2025-11-09 13:40:37 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 13:40:37 - __main__ - INFO - ============================================================
+2025-11-09 13:54:39 - __main__ - INFO - InferenceServer initialized
+2025-11-09 13:54:39 - __main__ - INFO - ============================================================
+2025-11-09 13:54:39 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 13:54:39 - __main__ - INFO - ============================================================
+2025-11-09 13:54:39 - __main__ - INFO - Loading YOLO model...
+2025-11-09 13:54:40 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 13:54:40 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 13:54:40 - __main__ - ERROR - Server error: Address already in use (addr='tcp://*:5555')
+Traceback (most recent call last):
+  File "/Users/pallav/Desktop/Object_detect_yolov8/src/server/server.py", line 83, in start
+    self.zmq_server.start()
+  File "/Users/pallav/Desktop/Object_detect_yolov8/src/communication/zmq_server.py", line 54, in start
+    self.recv_socket.bind(f"tcp://*:{self.recv_port}")
+  File "/Users/pallav/Desktop/Object_detect_yolov8/yolo/lib/python3.12/site-packages/zmq/sugar/socket.py", line 320, in bind
+    super().bind(addr)
+  File "zmq/backend/cython/_zmq.py", line 1009, in zmq.backend.cython._zmq.Socket.bind
+    _check_rc(rc)
+    ^^^^^^^^^^^
+  File "zmq/backend/cython/_zmq.py", line 190, in zmq.backend.cython._zmq._check_rc
+    raise ZMQError(errno)
+    ^^^^^^^^^^^
+zmq.error.ZMQError: Address already in use (addr='tcp://*:5555')
+2025-11-09 13:54:40 - __main__ - INFO - Shutting down server...
+2025-11-09 13:54:40 - __main__ - INFO - Final metrics:
+2025-11-09 13:54:46 - __main__ - INFO - InferenceServer initialized
+2025-11-09 13:54:46 - __main__ - INFO - ============================================================
+2025-11-09 13:54:46 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 13:54:46 - __main__ - INFO - ============================================================
+2025-11-09 13:54:46 - __main__ - INFO - Loading YOLO model...
+2025-11-09 13:54:47 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 13:54:47 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 13:54:47 - __main__ - ERROR - Server error: Address already in use (addr='tcp://*:5555')
+Traceback (most recent call last):
+  File "/Users/pallav/Desktop/Object_detect_yolov8/src/server/server.py", line 83, in start
+    self.zmq_server.start()
+  File "/Users/pallav/Desktop/Object_detect_yolov8/src/communication/zmq_server.py", line 54, in start
+    self.recv_socket.bind(f"tcp://*:{self.recv_port}")
+  File "/Users/pallav/Desktop/Object_detect_yolov8/yolo/lib/python3.12/site-packages/zmq/sugar/socket.py", line 320, in bind
+    super().bind(addr)
+  File "zmq/backend/cython/_zmq.py", line 1009, in zmq.backend.cython._zmq.Socket.bind
+    _check_rc(rc)
+    ^^^^^^^^^^^
+  File "zmq/backend/cython/_zmq.py", line 190, in zmq.backend.cython._zmq._check_rc
+    raise ZMQError(errno)
+    ^^^^^^^^^^^
+zmq.error.ZMQError: Address already in use (addr='tcp://*:5555')
+2025-11-09 13:54:47 - __main__ - INFO - Shutting down server...
+2025-11-09 13:54:47 - __main__ - INFO - Final metrics:
+2025-11-09 13:55:44 - __main__ - INFO - InferenceServer initialized
+2025-11-09 13:55:44 - __main__ - INFO - ============================================================
+2025-11-09 13:55:44 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 13:55:44 - __main__ - INFO - ============================================================
+2025-11-09 13:55:44 - __main__ - INFO - Loading YOLO model...
+2025-11-09 13:55:45 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 13:55:45 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 13:55:45 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 13:55:45 - __main__ - INFO - All 4 workers started
+2025-11-09 13:55:45 - __main__ - INFO - ============================================================
+2025-11-09 13:55:45 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 13:55:45 - __main__ - INFO - ============================================================
+2025-11-09 14:19:41 - __main__ - INFO - InferenceServer initialized
+2025-11-09 14:19:41 - __main__ - INFO - ============================================================
+2025-11-09 14:19:41 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 14:19:41 - __main__ - INFO - ============================================================
+2025-11-09 14:19:41 - __main__ - INFO - Loading YOLO model...
+2025-11-09 14:19:41 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 14:19:41 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 14:19:41 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 14:19:41 - __main__ - INFO - All 4 workers started
+2025-11-09 14:19:41 - __main__ - INFO - ============================================================
+2025-11-09 14:19:41 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 14:19:41 - __main__ - INFO - ============================================================
+2025-11-09 14:32:36 - __main__ - INFO - InferenceServer initialized
+2025-11-09 14:32:36 - __main__ - INFO - ============================================================
+2025-11-09 14:32:36 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 14:32:36 - __main__ - INFO - ============================================================
+2025-11-09 14:32:36 - __main__ - INFO - Loading YOLO model...
+2025-11-09 14:32:37 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 14:32:37 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 14:32:37 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 14:32:37 - __main__ - INFO - All 4 workers started
+2025-11-09 14:32:37 - __main__ - INFO - ============================================================
+2025-11-09 14:32:37 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 14:32:37 - __main__ - INFO - ============================================================
+2025-11-09 14:37:21 - __main__ - INFO - InferenceServer initialized
+2025-11-09 14:37:21 - __main__ - INFO - ============================================================
+2025-11-09 14:37:21 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 14:37:21 - __main__ - INFO - ============================================================
+2025-11-09 14:37:21 - __main__ - INFO - Loading YOLO model...
+2025-11-09 14:37:21 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 14:37:21 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 14:37:21 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 14:37:21 - __main__ - INFO - All 4 workers started
+2025-11-09 14:37:21 - __main__ - INFO - ============================================================
+2025-11-09 14:37:21 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 14:37:21 - __main__ - INFO - ============================================================
+2025-11-09 14:53:27 - __main__ - INFO - InferenceServer initialized
+2025-11-09 14:53:27 - __main__ - INFO - ============================================================
+2025-11-09 14:53:27 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 14:53:27 - __main__ - INFO - ============================================================
+2025-11-09 14:53:27 - __main__ - INFO - Loading YOLO model...
+2025-11-09 14:53:27 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 14:53:27 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 14:53:27 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 14:53:27 - __main__ - INFO - All 4 workers started
+2025-11-09 14:53:27 - __main__ - INFO - ============================================================
+2025-11-09 14:53:27 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 14:53:27 - __main__ - INFO - ============================================================
+2025-11-09 14:54:35 - __main__ - INFO - InferenceServer initialized
+2025-11-09 14:54:35 - __main__ - INFO - ============================================================
+2025-11-09 14:54:35 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 14:54:35 - __main__ - INFO - ============================================================
+2025-11-09 14:54:35 - __main__ - INFO - Loading YOLO model...
+2025-11-09 14:54:35 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 14:54:35 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 14:54:35 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 14:54:35 - __main__ - INFO - All 4 workers started
+2025-11-09 14:54:35 - __main__ - INFO - ============================================================
+2025-11-09 14:54:35 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 14:54:35 - __main__ - INFO - ============================================================
+2025-11-09 15:06:41 - __main__ - INFO - InferenceServer initialized
+2025-11-09 15:06:41 - __main__ - INFO - ============================================================
+2025-11-09 15:06:41 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 15:06:41 - __main__ - INFO - ============================================================
+2025-11-09 15:06:41 - __main__ - INFO - Loading YOLO model...
+2025-11-09 15:06:42 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 15:06:42 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 15:06:42 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 15:06:42 - __main__ - INFO - All 4 workers started
+2025-11-09 15:06:42 - __main__ - INFO - ============================================================
+2025-11-09 15:06:42 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 15:06:42 - __main__ - INFO - ============================================================
+2025-11-09 15:13:46 - __main__ - INFO - InferenceServer initialized
+2025-11-09 15:13:46 - __main__ - INFO - ============================================================
+2025-11-09 15:13:46 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 15:13:46 - __main__ - INFO - ============================================================
+2025-11-09 15:13:46 - __main__ - INFO - Loading YOLO model...
+2025-11-09 15:13:47 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 15:13:47 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 15:13:47 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 15:13:47 - __main__ - INFO - All 4 workers started
+2025-11-09 15:13:47 - __main__ - INFO - ============================================================
+2025-11-09 15:13:47 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 15:13:47 - __main__ - INFO - ============================================================
+2025-11-09 15:20:36 - __main__ - INFO - InferenceServer initialized
+2025-11-09 15:20:36 - __main__ - INFO - ============================================================
+2025-11-09 15:20:36 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 15:20:36 - __main__ - INFO - ============================================================
+2025-11-09 15:20:36 - __main__ - INFO - Loading YOLO model...
+2025-11-09 15:20:37 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 15:20:37 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 15:20:37 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 15:20:37 - __main__ - INFO - All 4 workers started
+2025-11-09 15:20:37 - __main__ - INFO - ============================================================
+2025-11-09 15:20:37 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 15:20:37 - __main__ - INFO - ============================================================
+2025-11-09 15:33:01 - __main__ - INFO - InferenceServer initialized
+2025-11-09 15:33:01 - __main__ - INFO - ============================================================
+2025-11-09 15:33:01 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 15:33:01 - __main__ - INFO - ============================================================
+2025-11-09 15:33:01 - __main__ - INFO - Loading YOLO model...
+2025-11-09 15:33:01 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 15:33:01 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 15:33:01 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 15:33:01 - __main__ - INFO - All 4 workers started
+2025-11-09 15:33:01 - __main__ - INFO - ============================================================
+2025-11-09 15:33:01 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 15:33:01 - __main__ - INFO - ============================================================
+2025-11-09 15:38:08 - __main__ - INFO - InferenceServer initialized
+2025-11-09 15:38:08 - __main__ - INFO - ============================================================
+2025-11-09 15:38:08 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 15:38:08 - __main__ - INFO - ============================================================
+2025-11-09 15:38:08 - __main__ - INFO - Loading YOLO model...
+2025-11-09 15:38:09 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 15:38:09 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 15:38:09 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 15:38:09 - __main__ - INFO - All 4 workers started
+2025-11-09 15:38:09 - __main__ - INFO - ============================================================
+2025-11-09 15:38:09 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 15:38:09 - __main__ - INFO - ============================================================
+2025-11-09 15:42:49 - __main__ - INFO - InferenceServer initialized
+2025-11-09 15:42:49 - __main__ - INFO - ============================================================
+2025-11-09 15:42:49 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 15:42:49 - __main__ - INFO - ============================================================
+2025-11-09 15:42:49 - __main__ - INFO - Loading YOLO model...
+2025-11-09 15:42:49 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 15:42:49 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 15:42:49 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 15:42:49 - __main__ - INFO - All 4 workers started
+2025-11-09 15:42:49 - __main__ - INFO - ============================================================
+2025-11-09 15:42:49 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 15:42:49 - __main__ - INFO - ============================================================
+2025-11-09 15:49:48 - __main__ - INFO - InferenceServer initialized
+2025-11-09 15:49:48 - __main__ - INFO - ============================================================
+2025-11-09 15:49:48 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 15:49:48 - __main__ - INFO - ============================================================
+2025-11-09 15:49:48 - __main__ - INFO - Loading YOLO model...
+2025-11-09 15:49:48 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 15:49:48 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 15:49:48 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 15:49:48 - __main__ - INFO - All 4 workers started
+2025-11-09 15:49:48 - __main__ - INFO - ============================================================
+2025-11-09 15:49:48 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 15:49:48 - __main__ - INFO - ============================================================
+2025-11-09 15:51:32 - __main__ - INFO - InferenceServer initialized
+2025-11-09 15:51:32 - __main__ - INFO - ============================================================
+2025-11-09 15:51:32 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 15:51:32 - __main__ - INFO - ============================================================
+2025-11-09 15:51:32 - __main__ - INFO - Loading YOLO model...
+2025-11-09 15:51:33 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 15:51:33 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 15:51:33 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 15:51:33 - __main__ - INFO - All 4 workers started
+2025-11-09 15:51:33 - __main__ - INFO - ============================================================
+2025-11-09 15:51:33 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 15:51:33 - __main__ - INFO - ============================================================
+2025-11-09 15:53:49 - __main__ - INFO - InferenceServer initialized
+2025-11-09 15:53:49 - __main__ - INFO - ============================================================
+2025-11-09 15:53:49 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 15:53:49 - __main__ - INFO - ============================================================
+2025-11-09 15:53:49 - __main__ - INFO - Loading YOLO model...
+2025-11-09 15:53:50 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 15:53:50 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 15:53:50 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 15:53:50 - __main__ - INFO - All 4 workers started
+2025-11-09 15:53:50 - __main__ - INFO - ============================================================
+2025-11-09 15:53:50 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 15:53:50 - __main__ - INFO - ============================================================
+2025-11-09 15:58:09 - __main__ - INFO - InferenceServer initialized
+2025-11-09 15:58:09 - __main__ - INFO - ============================================================
+2025-11-09 15:58:09 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 15:58:09 - __main__ - INFO - ============================================================
+2025-11-09 15:58:09 - __main__ - INFO - Loading YOLO model...
+2025-11-09 15:58:09 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 15:58:09 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 15:58:09 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 15:58:10 - __main__ - INFO - All 4 workers started
+2025-11-09 15:58:12 - __main__ - INFO - Worker 0: is_alive=True, daemon=True
+2025-11-09 15:58:12 - __main__ - INFO - Worker 1: is_alive=True, daemon=True
+2025-11-09 15:58:12 - __main__ - INFO - Worker 2: is_alive=True, daemon=True
+2025-11-09 15:58:12 - __main__ - INFO - Worker 3: is_alive=True, daemon=True
+2025-11-09 15:58:12 - __main__ - INFO - ============================================================
+2025-11-09 15:58:12 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 15:58:12 - __main__ - INFO - ============================================================
+2025-11-09 16:01:12 - __main__ - INFO - InferenceServer initialized
+2025-11-09 16:01:12 - __main__ - INFO - ============================================================
+2025-11-09 16:01:12 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 16:01:12 - __main__ - INFO - ============================================================
+2025-11-09 16:01:12 - __main__ - INFO - Loading YOLO model...
+2025-11-09 16:01:13 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 16:01:13 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 16:01:13 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 16:01:13 - __main__ - INFO - All 4 workers started
+2025-11-09 16:01:15 - __main__ - INFO - Worker 0: is_alive=True, daemon=True
+2025-11-09 16:01:15 - __main__ - INFO - Worker 1: is_alive=True, daemon=True
+2025-11-09 16:01:15 - __main__ - INFO - Worker 2: is_alive=True, daemon=True
+2025-11-09 16:01:15 - __main__ - INFO - Worker 3: is_alive=True, daemon=True
+2025-11-09 16:01:15 - __main__ - INFO - ============================================================
+2025-11-09 16:01:15 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 16:01:15 - __main__ - INFO - ============================================================
+2025-11-09 16:04:00 - __main__ - INFO - InferenceServer initialized
+2025-11-09 16:04:00 - __main__ - INFO - ============================================================
+2025-11-09 16:04:00 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 16:04:00 - __main__ - INFO - ============================================================
+2025-11-09 16:04:00 - __main__ - INFO - Loading YOLO model...
+2025-11-09 16:04:01 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 16:04:01 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 16:04:01 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 16:04:01 - __main__ - INFO - All 4 workers started
+2025-11-09 16:04:03 - __main__ - INFO - Worker 0: is_alive=True, daemon=True
+2025-11-09 16:04:03 - __main__ - INFO - Worker 1: is_alive=True, daemon=True
+2025-11-09 16:04:03 - __main__ - INFO - Worker 2: is_alive=True, daemon=True
+2025-11-09 16:04:03 - __main__ - INFO - Worker 3: is_alive=True, daemon=True
+2025-11-09 16:04:03 - __main__ - INFO - ============================================================
+2025-11-09 16:04:03 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 16:04:03 - __main__ - INFO - ============================================================
+2025-11-09 16:06:02 - __main__ - INFO - InferenceServer initialized
+2025-11-09 16:06:02 - __main__ - INFO - ============================================================
+2025-11-09 16:06:02 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 16:06:02 - __main__ - INFO - ============================================================
+2025-11-09 16:06:02 - __main__ - INFO - Loading YOLO model...
+2025-11-09 16:06:02 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 16:06:02 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 16:06:02 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 16:06:02 - __main__ - INFO - All 4 workers started
+2025-11-09 16:06:04 - __main__ - INFO - Worker 0: is_alive=True, daemon=True
+2025-11-09 16:06:04 - __main__ - INFO - Worker 1: is_alive=True, daemon=True
+2025-11-09 16:06:04 - __main__ - INFO - Worker 2: is_alive=True, daemon=True
+2025-11-09 16:06:04 - __main__ - INFO - Worker 3: is_alive=True, daemon=True
+2025-11-09 16:06:04 - __main__ - INFO - ============================================================
+2025-11-09 16:06:04 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 16:06:04 - __main__ - INFO - ============================================================
+2025-11-09 16:13:43 - __main__ - INFO - InferenceServer initialized
+2025-11-09 16:13:43 - __main__ - INFO - ============================================================
+2025-11-09 16:13:43 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 16:13:43 - __main__ - INFO - ============================================================
+2025-11-09 16:13:43 - __main__ - INFO - Loading YOLO model...
+2025-11-09 16:13:43 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 16:13:43 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 16:13:43 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 16:13:43 - __main__ - INFO - All 4 workers started
+2025-11-09 16:13:45 - __main__ - INFO - Worker 0: is_alive=True, daemon=True
+2025-11-09 16:13:45 - __main__ - INFO - Worker 1: is_alive=True, daemon=True
+2025-11-09 16:13:45 - __main__ - INFO - Worker 2: is_alive=True, daemon=True
+2025-11-09 16:13:45 - __main__ - INFO - Worker 3: is_alive=True, daemon=True
+2025-11-09 16:13:45 - __main__ - INFO - ============================================================
+2025-11-09 16:13:45 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 16:13:45 - __main__ - INFO - ============================================================
+2025-11-09 16:17:53 - __main__ - INFO - InferenceServer initialized
+2025-11-09 16:17:53 - __main__ - INFO - ============================================================
+2025-11-09 16:17:53 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 16:17:53 - __main__ - INFO - ============================================================
+2025-11-09 16:17:53 - __main__ - INFO - Loading YOLO model...
+2025-11-09 16:17:54 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 16:17:54 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 16:17:54 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 16:17:54 - __main__ - INFO - All 4 workers started
+2025-11-09 16:17:56 - __main__ - INFO - Worker 0: is_alive=True, daemon=True
+2025-11-09 16:17:56 - __main__ - INFO - Worker 1: is_alive=True, daemon=True
+2025-11-09 16:17:56 - __main__ - INFO - Worker 2: is_alive=True, daemon=True
+2025-11-09 16:17:56 - __main__ - INFO - Worker 3: is_alive=True, daemon=True
+2025-11-09 16:17:56 - __main__ - INFO - ============================================================
+2025-11-09 16:17:56 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 16:17:56 - __main__ - INFO - ============================================================
+2025-11-09 16:21:16 - __main__ - INFO - InferenceServer initialized
+2025-11-09 16:21:16 - __main__ - INFO - ============================================================
+2025-11-09 16:21:16 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 16:21:16 - __main__ - INFO - ============================================================
+2025-11-09 16:21:16 - __main__ - INFO - Loading YOLO model...
+2025-11-09 16:21:16 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 16:21:16 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 16:21:16 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 16:21:16 - __main__ - INFO - All 4 workers started
+2025-11-09 16:21:18 - __main__ - INFO - Worker 0: is_alive=True, daemon=True
+2025-11-09 16:21:18 - __main__ - INFO - Worker 1: is_alive=True, daemon=True
+2025-11-09 16:21:18 - __main__ - INFO - Worker 2: is_alive=True, daemon=True
+2025-11-09 16:21:18 - __main__ - INFO - Worker 3: is_alive=True, daemon=True
+2025-11-09 16:21:18 - __main__ - INFO - ============================================================
+2025-11-09 16:21:18 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 16:21:18 - __main__ - INFO - ============================================================
+2025-11-09 17:31:29 - __main__ - INFO - InferenceServer initialized
+2025-11-09 17:31:29 - __main__ - INFO - ============================================================
+2025-11-09 17:31:29 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 17:31:29 - __main__ - INFO - ============================================================
+2025-11-09 17:31:29 - __main__ - INFO - Loading YOLO model...
+2025-11-09 17:31:29 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 17:31:29 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 17:31:29 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 17:31:29 - __main__ - INFO - All 4 workers started
+2025-11-09 17:31:31 - __main__ - INFO - Worker 0: is_alive=True, daemon=True
+2025-11-09 17:31:31 - __main__ - INFO - Worker 1: is_alive=True, daemon=True
+2025-11-09 17:31:31 - __main__ - INFO - Worker 2: is_alive=True, daemon=True
+2025-11-09 17:31:31 - __main__ - INFO - Worker 3: is_alive=True, daemon=True
+2025-11-09 17:31:31 - __main__ - INFO - ============================================================
+2025-11-09 17:31:31 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 17:31:31 - __main__ - INFO - ============================================================
+2025-11-09 17:35:48 - __main__ - INFO - InferenceServer initialized
+2025-11-09 17:35:48 - __main__ - INFO - ============================================================
+2025-11-09 17:35:48 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 17:35:48 - __main__ - INFO - ============================================================
+2025-11-09 17:35:48 - __main__ - INFO - Loading YOLO model...
+2025-11-09 17:35:49 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 17:35:49 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 17:35:49 - __main__ - ERROR - Server error: Address already in use (addr='tcp://*:5555')
+Traceback (most recent call last):
+  File "/Users/pallav/Desktop/Object_detect_yolov8/src/server/server.py", line 83, in start
+    self.zmq_server.start()
+  File "/Users/pallav/Desktop/Object_detect_yolov8/src/communication/zmq_server.py", line 54, in start
+    self.recv_socket.bind(f"tcp://*:{self.recv_port}")
+  File "/Users/pallav/Desktop/Object_detect_yolov8/yolo/lib/python3.12/site-packages/zmq/sugar/socket.py", line 320, in bind
+    super().bind(addr)
+  File "zmq/backend/cython/_zmq.py", line 1009, in zmq.backend.cython._zmq.Socket.bind
+    _check_rc(rc)
+    ^^^^^^^^^^^
+  File "zmq/backend/cython/_zmq.py", line 190, in zmq.backend.cython._zmq._check_rc
+    raise ZMQError(errno)
+    ^^^^^^^^^^^
+zmq.error.ZMQError: Address already in use (addr='tcp://*:5555')
+2025-11-09 17:35:49 - __main__ - INFO - Shutting down server...
+2025-11-09 17:35:49 - __main__ - INFO - Final metrics:
+2025-11-09 17:36:13 - __main__ - INFO - InferenceServer initialized
+2025-11-09 17:36:13 - __main__ - INFO - ============================================================
+2025-11-09 17:36:13 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 17:36:13 - __main__ - INFO - ============================================================
+2025-11-09 17:36:13 - __main__ - INFO - Loading YOLO model...
+2025-11-09 17:36:13 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 17:36:13 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 17:36:13 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 17:36:13 - __main__ - INFO - All 4 workers started
+2025-11-09 17:36:15 - __main__ - INFO - Worker 0: is_alive=True, daemon=True
+2025-11-09 17:36:15 - __main__ - INFO - Worker 1: is_alive=True, daemon=True
+2025-11-09 17:36:15 - __main__ - INFO - Worker 2: is_alive=True, daemon=True
+2025-11-09 17:36:15 - __main__ - INFO - Worker 3: is_alive=True, daemon=True
+2025-11-09 17:36:15 - __main__ - INFO - ============================================================
+2025-11-09 17:36:15 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 17:36:15 - __main__ - INFO - ============================================================
+2025-11-09 17:40:39 - __main__ - INFO - InferenceServer initialized
+2025-11-09 17:40:39 - __main__ - INFO - ============================================================
+2025-11-09 17:40:39 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 17:40:39 - __main__ - INFO - ============================================================
+2025-11-09 17:40:39 - __main__ - INFO - Loading YOLO model...
+2025-11-09 17:40:40 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 17:40:40 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 17:40:40 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 17:40:40 - __main__ - INFO - All 4 workers started
+2025-11-09 17:40:42 - __main__ - INFO - Worker 0: is_alive=True, daemon=True
+2025-11-09 17:40:42 - __main__ - INFO - Worker 1: is_alive=True, daemon=True
+2025-11-09 17:40:42 - __main__ - INFO - Worker 2: is_alive=True, daemon=True
+2025-11-09 17:40:42 - __main__ - INFO - Worker 3: is_alive=True, daemon=True
+2025-11-09 17:40:42 - __main__ - INFO - ============================================================
+2025-11-09 17:40:42 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 17:40:42 - __main__ - INFO - ============================================================
+2025-11-09 17:59:21 - __main__ - INFO - InferenceServer initialized
+2025-11-09 17:59:21 - __main__ - INFO - ============================================================
+2025-11-09 17:59:21 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 17:59:21 - __main__ - INFO - ============================================================
+2025-11-09 17:59:21 - __main__ - INFO - Loading YOLO model...
+2025-11-09 17:59:22 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 17:59:22 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 17:59:22 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 17:59:22 - __main__ - INFO - All 4 workers started
+2025-11-09 17:59:24 - __main__ - INFO - Worker 0: is_alive=True, daemon=True
+2025-11-09 17:59:24 - __main__ - INFO - Worker 1: is_alive=True, daemon=True
+2025-11-09 17:59:24 - __main__ - INFO - Worker 2: is_alive=True, daemon=True
+2025-11-09 17:59:24 - __main__ - INFO - Worker 3: is_alive=True, daemon=True
+2025-11-09 17:59:24 - __main__ - INFO - ============================================================
+2025-11-09 17:59:24 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 17:59:24 - __main__ - INFO - ============================================================
+2025-11-09 17:59:45 - __main__ - INFO - InferenceServer initialized
+2025-11-09 17:59:45 - __main__ - INFO - ============================================================
+2025-11-09 17:59:45 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 17:59:45 - __main__ - INFO - ============================================================
+2025-11-09 17:59:45 - __main__ - INFO - Loading YOLO model...
+2025-11-09 17:59:45 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 17:59:45 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 17:59:45 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 17:59:45 - __main__ - INFO - All 4 workers started
+2025-11-09 17:59:47 - __main__ - INFO - Worker 0: is_alive=True, daemon=True
+2025-11-09 17:59:47 - __main__ - INFO - Worker 1: is_alive=True, daemon=True
+2025-11-09 17:59:47 - __main__ - INFO - Worker 2: is_alive=True, daemon=True
+2025-11-09 17:59:47 - __main__ - INFO - Worker 3: is_alive=True, daemon=True
+2025-11-09 17:59:47 - __main__ - INFO - ============================================================
+2025-11-09 17:59:47 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 17:59:47 - __main__ - INFO - ============================================================
+2025-11-09 18:00:18 - __main__ - INFO - InferenceServer initialized
+2025-11-09 18:00:18 - __main__ - INFO - ============================================================
+2025-11-09 18:00:18 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 18:00:18 - __main__ - INFO - ============================================================
+2025-11-09 18:00:18 - __main__ - INFO - Loading YOLO model...
+2025-11-09 18:00:19 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 18:00:19 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 18:00:19 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 18:00:19 - __main__ - INFO - All 4 workers started
+2025-11-09 18:00:21 - __main__ - INFO - Worker 0: is_alive=True, daemon=True
+2025-11-09 18:00:21 - __main__ - INFO - Worker 1: is_alive=True, daemon=True
+2025-11-09 18:00:21 - __main__ - INFO - Worker 2: is_alive=True, daemon=True
+2025-11-09 18:00:21 - __main__ - INFO - Worker 3: is_alive=True, daemon=True
+2025-11-09 18:00:21 - __main__ - INFO - ============================================================
+2025-11-09 18:00:21 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 18:00:21 - __main__ - INFO - ============================================================
+2025-11-09 18:03:19 - __main__ - INFO - InferenceServer initialized
+2025-11-09 18:03:19 - __main__ - INFO - ============================================================
+2025-11-09 18:03:19 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 18:03:19 - __main__ - INFO - ============================================================
+2025-11-09 18:03:19 - __main__ - INFO - Loading YOLO model...
+2025-11-09 18:03:20 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 18:03:20 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 18:03:20 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 18:03:20 - __main__ - INFO - All 4 workers started
+2025-11-09 18:03:22 - __main__ - INFO - Worker 0: is_alive=True, daemon=True
+2025-11-09 18:03:22 - __main__ - INFO - Worker 1: is_alive=True, daemon=True
+2025-11-09 18:03:22 - __main__ - INFO - Worker 2: is_alive=True, daemon=True
+2025-11-09 18:03:22 - __main__ - INFO - Worker 3: is_alive=True, daemon=True
+2025-11-09 18:03:22 - __main__ - INFO - ============================================================
+2025-11-09 18:03:22 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 18:03:22 - __main__ - INFO - ============================================================
+2025-11-09 18:04:22 - __main__ - INFO - InferenceServer initialized
+2025-11-09 18:04:22 - __main__ - INFO - ============================================================
+2025-11-09 18:04:22 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 18:04:22 - __main__ - INFO - ============================================================
+2025-11-09 18:04:22 - __main__ - INFO - Loading YOLO model...
+2025-11-09 18:04:22 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 18:04:22 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 18:04:22 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 18:04:22 - __main__ - INFO - All 4 workers started
+2025-11-09 18:04:24 - __main__ - INFO - Worker 0: is_alive=True, daemon=True
+2025-11-09 18:04:24 - __main__ - INFO - Worker 1: is_alive=True, daemon=True
+2025-11-09 18:04:24 - __main__ - INFO - Worker 2: is_alive=True, daemon=True
+2025-11-09 18:04:24 - __main__ - INFO - Worker 3: is_alive=True, daemon=True
+2025-11-09 18:04:24 - __main__ - INFO - ============================================================
+2025-11-09 18:04:24 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 18:04:24 - __main__ - INFO - ============================================================
+2025-11-09 18:10:23 - __main__ - INFO - InferenceServer initialized
+2025-11-09 18:10:23 - __main__ - INFO - ============================================================
+2025-11-09 18:10:23 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 18:10:23 - __main__ - INFO - ============================================================
+2025-11-09 18:10:23 - __main__ - INFO - Loading YOLO model...
+2025-11-09 18:10:23 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 18:10:23 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 18:10:23 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 18:10:23 - __main__ - INFO - All 4 workers started
+2025-11-09 18:10:25 - __main__ - INFO - Worker 0: is_alive=True, daemon=True
+2025-11-09 18:10:25 - __main__ - INFO - Worker 1: is_alive=True, daemon=True
+2025-11-09 18:10:25 - __main__ - INFO - Worker 2: is_alive=True, daemon=True
+2025-11-09 18:10:25 - __main__ - INFO - Worker 3: is_alive=True, daemon=True
+2025-11-09 18:10:25 - __main__ - INFO - ============================================================
+2025-11-09 18:10:25 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 18:10:25 - __main__ - INFO - ============================================================
+2025-11-09 18:18:05 - __main__ - INFO - InferenceServer initialized
+2025-11-09 18:18:05 - __main__ - INFO - ============================================================
+2025-11-09 18:18:05 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 18:18:05 - __main__ - INFO - ============================================================
+2025-11-09 18:18:05 - __main__ - INFO - Loading YOLO model...
+2025-11-09 18:18:06 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 18:18:06 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 18:18:06 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 18:18:06 - __main__ - INFO - All 4 workers started
+2025-11-09 18:18:08 - __main__ - INFO - Worker 0: is_alive=True, daemon=True
+2025-11-09 18:18:08 - __main__ - INFO - Worker 1: is_alive=True, daemon=True
+2025-11-09 18:18:08 - __main__ - INFO - Worker 2: is_alive=True, daemon=True
+2025-11-09 18:18:08 - __main__ - INFO - Worker 3: is_alive=True, daemon=True
+2025-11-09 18:18:08 - __main__ - INFO - ============================================================
+2025-11-09 18:18:08 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 18:18:08 - __main__ - INFO - ============================================================
+2025-11-09 19:58:03 - __main__ - INFO - InferenceServer initialized
+2025-11-09 19:58:03 - __main__ - INFO - ============================================================
+2025-11-09 19:58:03 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 19:58:03 - __main__ - INFO - ============================================================
+2025-11-09 19:58:03 - __main__ - INFO - Loading YOLO model...
+2025-11-09 19:58:04 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 19:58:04 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 19:58:04 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 19:58:04 - __main__ - INFO - All 4 workers started
+2025-11-09 19:58:06 - __main__ - INFO - Worker 0: is_alive=False, daemon=True
+2025-11-09 19:58:06 - __main__ - INFO - Worker 1: is_alive=False, daemon=True
+2025-11-09 19:58:06 - __main__ - INFO - Worker 2: is_alive=False, daemon=True
+2025-11-09 19:58:06 - __main__ - INFO - Worker 3: is_alive=False, daemon=True
+2025-11-09 19:58:06 - __main__ - INFO - ============================================================
+2025-11-09 19:58:06 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 19:58:06 - __main__ - INFO - ============================================================
+2025-11-09 19:58:06 - __main__ - ERROR - Server error: name 'os' is not defined
+Traceback (most recent call last):
+  File "/Users/pallav/Desktop/Object_detect_yolov8/src/server/server.py", line 127, in start
+    self.zmq_server.receive_frames()
+  File "/Users/pallav/Desktop/Object_detect_yolov8/src/communication/zmq_server.py", line 75, in receive_frames
+    logger.info(f"[ZMQServer] PID={os.getpid()} id(input_queue)={id(self.input_queue)}")
+                                   ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'
+2025-11-09 19:58:06 - __main__ - INFO - Shutting down server...
+2025-11-09 19:58:06 - __main__ - INFO - Final metrics:
+2025-11-09 19:59:39 - __main__ - INFO - InferenceServer initialized
+2025-11-09 19:59:39 - __main__ - INFO - ============================================================
+2025-11-09 19:59:39 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 19:59:39 - __main__ - INFO - ============================================================
+2025-11-09 19:59:39 - __main__ - INFO - Loading YOLO model...
+2025-11-09 19:59:40 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 19:59:40 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 19:59:40 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 19:59:40 - __main__ - INFO - All 4 workers started
+2025-11-09 19:59:42 - __main__ - INFO - Worker 0: is_alive=False, daemon=True
+2025-11-09 19:59:42 - __main__ - INFO - Worker 1: is_alive=False, daemon=True
+2025-11-09 19:59:42 - __main__ - INFO - Worker 2: is_alive=False, daemon=True
+2025-11-09 19:59:42 - __main__ - INFO - Worker 3: is_alive=False, daemon=True
+2025-11-09 19:59:42 - __main__ - INFO - ============================================================
+2025-11-09 19:59:42 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 19:59:42 - __main__ - INFO - ============================================================
+2025-11-09 19:59:42 - __main__ - ERROR - Server error: name 'os' is not defined
+Traceback (most recent call last):
+  File "/Users/pallav/Desktop/Object_detect_yolov8/src/server/server.py", line 127, in start
+    self.zmq_server.receive_frames()
+  File "/Users/pallav/Desktop/Object_detect_yolov8/src/communication/zmq_server.py", line 76, in receive_frames
+    logger.info(f"[ZMQServer] PID={os.getpid()} id(input_queue)={id(self.input_queue)}")
+                                   ^^
+NameError: name 'os' is not defined. Did you mean: 'self.os'? Or did you forget to import 'os'
+2025-11-09 19:59:42 - __main__ - INFO - Shutting down server...
+2025-11-09 19:59:42 - __main__ - INFO - Final metrics:
+2025-11-09 20:01:19 - __main__ - INFO - InferenceServer initialized
+2025-11-09 20:01:19 - __main__ - INFO - ============================================================
+2025-11-09 20:01:19 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 20:01:19 - __main__ - INFO - ============================================================
+2025-11-09 20:01:19 - __main__ - INFO - Loading YOLO model...
+2025-11-09 20:01:20 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 20:01:20 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 20:01:20 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 20:01:20 - __main__ - INFO - All 4 workers started
+2025-11-09 20:01:22 - __main__ - INFO - Worker 0: is_alive=True, daemon=True
+2025-11-09 20:01:22 - __main__ - INFO - Worker 1: is_alive=True, daemon=True
+2025-11-09 20:01:22 - __main__ - INFO - Worker 2: is_alive=True, daemon=True
+2025-11-09 20:01:22 - __main__ - INFO - Worker 3: is_alive=True, daemon=True
+2025-11-09 20:01:22 - __main__ - INFO - ============================================================
+2025-11-09 20:01:22 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 20:01:22 - __main__ - INFO - ============================================================
+2025-11-09 20:01:45 - __main__ - INFO - InferenceServer initialized
+2025-11-09 20:01:45 - __main__ - INFO - ============================================================
+2025-11-09 20:01:45 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 20:01:45 - __main__ - INFO - ============================================================
+2025-11-09 20:01:45 - __main__ - INFO - Loading YOLO model...
+2025-11-09 20:01:45 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 20:01:45 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 20:01:45 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 20:01:45 - __main__ - INFO - All 4 workers started
+2025-11-09 20:01:47 - __main__ - INFO - Worker 0: is_alive=True, daemon=True
+2025-11-09 20:01:47 - __main__ - INFO - Worker 1: is_alive=True, daemon=True
+2025-11-09 20:01:47 - __main__ - INFO - Worker 2: is_alive=True, daemon=True
+2025-11-09 20:01:47 - __main__ - INFO - Worker 3: is_alive=True, daemon=True
+2025-11-09 20:01:47 - __main__ - INFO - ============================================================
+2025-11-09 20:01:47 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 20:01:47 - __main__ - INFO - ============================================================
+2025-11-09 20:02:29 - __main__ - INFO - InferenceServer initialized
+2025-11-09 20:02:29 - __main__ - INFO - ============================================================
+2025-11-09 20:02:29 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 20:02:29 - __main__ - INFO - ============================================================
+2025-11-09 20:02:29 - __main__ - INFO - Loading YOLO model...
+2025-11-09 20:02:29 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 20:02:29 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 20:02:29 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 20:02:29 - __main__ - INFO - All 4 workers started
+2025-11-09 20:02:31 - __main__ - INFO - Worker 0: is_alive=True, daemon=True
+2025-11-09 20:02:31 - __main__ - INFO - Worker 1: is_alive=True, daemon=True
+2025-11-09 20:02:31 - __main__ - INFO - Worker 2: is_alive=True, daemon=True
+2025-11-09 20:02:31 - __main__ - INFO - Worker 3: is_alive=True, daemon=True
+2025-11-09 20:02:31 - __main__ - INFO - ============================================================
+2025-11-09 20:02:31 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 20:02:31 - __main__ - INFO - ============================================================
+2025-11-09 20:15:48 - __main__ - INFO - InferenceServer initialized
+2025-11-09 20:15:48 - __main__ - INFO - ============================================================
+2025-11-09 20:15:48 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 20:15:48 - __main__ - INFO - ============================================================
+2025-11-09 20:15:48 - __main__ - INFO - Loading YOLO model...
+2025-11-09 20:15:49 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 20:15:49 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 20:15:49 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 20:15:49 - __main__ - INFO - All 4 workers started
+2025-11-09 20:16:06 - __main__ - INFO - InferenceServer initialized
+2025-11-09 20:16:06 - __main__ - INFO - ============================================================
+2025-11-09 20:16:06 - __main__ - INFO - STARTING REAL-TIME INFERENCE SERVER
+2025-11-09 20:16:06 - __main__ - INFO - ============================================================
+2025-11-09 20:16:06 - __main__ - INFO - Loading YOLO model...
+2025-11-09 20:16:07 - __main__ - INFO - Model info: {'model_path': 'yolov8n.pt', 'device': 'cpu', 'img_size': 640, 'conf_threshold': 0.25, 'iou_threshold': 0.45, 'model_type': 'DetectionModel'}
+2025-11-09 20:16:07 - __main__ - INFO - Starting ZMQ communication...
+2025-11-09 20:16:07 - __main__ - INFO - Spawning 4 inference workers...
+2025-11-09 20:16:07 - __main__ - INFO - All 4 workers started
+2025-11-09 20:16:09 - __main__ - INFO - Worker 0: is_alive=True, daemon=True
+2025-11-09 20:16:09 - __main__ - INFO - Worker 1: is_alive=True, daemon=True
+2025-11-09 20:16:09 - __main__ - INFO - Worker 2: is_alive=True, daemon=True
+2025-11-09 20:16:09 - __main__ - INFO - Worker 3: is_alive=True, daemon=True
+2025-11-09 20:16:09 - __main__ - INFO - ============================================================
+2025-11-09 20:16:09 - __main__ - INFO - SERVER READY - Waiting for frames...
+2025-11-09 20:16:09 - __main__ - INFO - ============================================================
