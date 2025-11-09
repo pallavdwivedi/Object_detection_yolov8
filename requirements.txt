@@ -1,0 +1,13 @@
+# Core dependencies
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+pyzmq>=25.0.0
+PyYAML>=6.0
+
+# Optional but recommended
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Utilities
+psutil>=5.9.0
